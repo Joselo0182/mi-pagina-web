@@ -1,0 +1,57 @@
+html<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .fecha {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido a mi página web!</h1>
+        <p>Esta es mi primera página web creada con HTML y CSS.</p>
+        <p>Estoy aprendiendo desarrollo web paso a paso y he logrado:</p>
+        <ul>
+            <li>Crear una cuenta en GitHub</li>
+            <li>Conectar GitHub con Netlify</li>
+            <li>Crear mi primer repositorio</li>
+            <li>Escribir código HTML y CSS</li>
+        </ul>
+        <div class="fecha">
+            <strong>Creado el: 16 de mayo de 2025</strong>
+        </div>
+    </div>
+</body>
+</html>
