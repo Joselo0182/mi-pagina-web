@@ -1,2 +1,2 @@
 # mi-pagina-web
-mn consultores
+MN Consultores
